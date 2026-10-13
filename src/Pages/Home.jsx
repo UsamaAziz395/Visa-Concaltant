@@ -6,6 +6,7 @@ import Footer from '../sections/Footer'
 import Gallery from '../sections/Gallery'
 import VisaService from '../sections/VisaService'
 import Client from '../sections/Client'
+import ChooseUs from '../sections/ChooseUs'
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
         <Layout />
         <Hero />
         <VisaService />
+        <ChooseUs />
           <Gallery />
           <Client />
         <Immigration />
