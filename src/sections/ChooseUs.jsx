@@ -1,15 +1,14 @@
-
 import React from 'react'
 import Expert from '../assets/images/Immigration/Expert.jpg'
 
 function ChooseUs() {
   return (
-    <div className='bg-[#0D132F] px-20 py-14'>
+    <div className='bg-[#0D132F] px-5 sm:px-8 lg:px-20 py-12 md:py-14'>
 
-      <div className='flex items-center justify-center gap-30'>
+      <div className='flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 xl:gap-20'>
 
         {/* Left Image */}
-        <div className='w-[400px] h-[300px]  shrink-0'>
+        <div className='w-full max-w-[400px] h-[250px] sm:h-[300px] shrink-0'>
           <img
             src={Expert}
             alt="Immigration Expert"
@@ -18,17 +17,17 @@ function ChooseUs() {
         </div>
 
         {/* Right Content */}
-        <div className='w-[560px]'>
+        <div className='w-full max-w-[560px]'>
 
           <h2 className='text-xs text-amber-400 uppercase font-bold mb-3'>
             Why Choose Us
           </h2>
 
-          <h1 className='text-3xl font-semibold text-white mb-3 w-md'>
+          <h1 className='text-2xl sm:text-3xl font-semibold text-white mb-3'>
             The Benefits of ImmiGo's Expertise
           </h1>
 
-          <p className='text-gray-400 text-sm leading-6 mb-6 w-md'>
+          <p className='text-gray-400 text-sm leading-6 mb-6'>
             At nullam leo consectetur euismod enim. Orci donec sapien et semper
             fringilla pellentesque in diam mi. Pulvinar ante sed velit ac nibh.
             Amet duis orci nibh nullam. Phasellus suspendisse ornare arcu eu
@@ -37,7 +36,7 @@ function ChooseUs() {
 
           {/* Personalized Service */}
           <div className='mb-5'>
-            <div className='flex justify-between items-center mb-2'>
+            <div className='flex justify-between items-center mb-2 gap-3'>
               <h3 className='text-white text-xs font-medium'>
                 Personalized Service
               </h3>
@@ -51,7 +50,7 @@ function ChooseUs() {
 
           {/* Customer Satisfaction */}
           <div>
-            <div className='flex justify-between items-center mb-2'>
+            <div className='flex justify-between items-center mb-2 gap-3'>
               <h3 className='text-white text-xs font-medium'>
                 Customer Satisfaction
               </h3>
