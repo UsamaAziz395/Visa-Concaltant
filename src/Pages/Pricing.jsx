@@ -2,17 +2,20 @@ import React from 'react'
 import Gallery from '../sections/Gallery'
 import ChooseUs from '../sections/ChooseUs'
 import Client from '../sections/Client'
+import GetTouch from '../sections/GetTouch'
+import HowItWork from '../Components/HowItWork/HowItWork'
 
-function Page() {
+function Pricing() {
   return (
     <div>
+        <ChooseUs />
        <Client />
-      <Gallery />
-      <ChooseUs />
+      <HowItWork />
+      <GetTouch />
      
       
     </div>
   )
 }
 
-export default Page
+export default Pricing

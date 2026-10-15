@@ -61,7 +61,7 @@ function Stat() {
 
           <div className="flex-1 flex flex-col items-start gap-6 max-w-xl">
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Aliquam pellentesque lorem dictum leo mauris nulla id.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illum ipsa ullam ad quia consequatur voluptatum aliquid? Vitae, corrupti quod voluptatum obcaecati perferendis optio architecto at quisquam beatae magni fugit quam, facere, aut nisi ipsam omnis praesentium? Unde rerum laboriosam, eum autem esse accusantium a quasi officiis perspiciatis culpa expedita!
             </p>
 
             <button className="px-6 py-3 bg-[#4F46E5] hover:bg-[#4338CA] transition-colors text-white font-medium rounded-lg shadow-md">
@@ -70,9 +70,9 @@ function Stat() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 border-t border-gray-700/50 pt-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4   border-t border-gray-700/50 pt-10">
           {statsData.map((stat, index) => (
-            <div key={index} className="flex flex-col items-start">
+            <div key={index} className="flex flex-col items-center">
               <span className="text-4xl md:text-5xl font-bold mb-2">
                 <AnimatedNumber
                   end={stat.value}

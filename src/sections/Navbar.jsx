@@ -21,7 +21,7 @@ function Navbar() {
         <div className='hidden md:flex items-center gap-5'>
           <Link to='/'>Home</Link>
           <Link to='/about'>About Us</Link>
-          <Link to='/page'>Pages</Link>
+          <Link to='/pricing'>Pricing</Link>
           <Link to='/services'>Services</Link>
           <Link to='/Contact'>Contact Us</Link>
 
@@ -52,8 +52,8 @@ function Navbar() {
             About Us
           </Link>
 
-          <Link to='/page' onClick={() => setIsOpen(false)}>
-            Pages
+          <Link to='/pricing' onClick={() => setIsOpen(false)}>
+            Pricing
           </Link>
 
           <Link to='/services' onClick={() => setIsOpen(false)}>
