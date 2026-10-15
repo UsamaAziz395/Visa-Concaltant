@@ -6,7 +6,7 @@ import ContactCard from '../Components/ContactCard/ContactCard';
 function GetTouch() {
   return (
     <section className="w-full py-16 px-4 md:px-8 bg-white">
-      {/* Main Container - Flexbox use kiya side-by-side lane ke liye */}
+      {/* Main Container  */}
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-12 items-start">
         
         {/* LEFT SIDE: Text and Image */}
