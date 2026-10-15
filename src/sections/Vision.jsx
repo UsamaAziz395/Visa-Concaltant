@@ -2,11 +2,14 @@
 import React, { useState } from 'react'
 import Visionimg from '../assets/images/FeatureCard/Visionimg.jpg'
 import { FaArrowUp, FaArrowRight } from 'react-icons/fa'
+import Icons from '../Components/Icons/Icons'
 
 function Vision() {
   const [changeicon, setChangeIcon] = useState(null)
 
   return (
+
+    <>
     <div className='px-5 sm:px-8 md:px-12 lg:px-20 py-12 sm:py-16'>
 
       {/* About Us */}
@@ -88,7 +91,10 @@ function Vision() {
 
       </div>
 
+      <Icons />
+
     </div>
+    </>
   )
 }
 
