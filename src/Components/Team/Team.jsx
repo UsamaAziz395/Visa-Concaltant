@@ -4,6 +4,7 @@ import Story from '../Story/Story'
 import Stat from '../Stat/Stat'
 import FAQs from '../../Components/FAQs/FAQs'
 import Video from '../../Components/Video/Video'
+import Family from '../Family/Family'
 
 function Team() {
   return (
@@ -24,6 +25,7 @@ function Team() {
           </div>
           </div>
 
+          <Family />
           <Story />
           <Video />
           <Stat />

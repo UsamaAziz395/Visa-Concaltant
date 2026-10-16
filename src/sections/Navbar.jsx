@@ -23,7 +23,7 @@ function Navbar() {
           <Link to='/about'>About Us</Link>
           <Link to='/pricing'>Pricing</Link>
           <Link to='/services'>Services</Link>
-          <Link to='/Contact'>Contact Us</Link>
+        <Link to='/Contact'>Contact Us</Link>
 
           <button className='bg-white text-purple-700 px-4 py-2 rounded-lg'>
             GET Started

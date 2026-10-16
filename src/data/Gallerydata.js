@@ -31,10 +31,7 @@ const Gallerydata = [
         id:6,
         image:Gallery6,
     },
-     {
-        id:7,
-        image:Gallery7,
-    },
+    
     
 
 
