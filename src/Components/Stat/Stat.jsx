@@ -45,7 +45,7 @@ function Stat() {
   ];
 
   return (
-    <section className="w-full bg-[#0D132E] text-white py-16 px-4 md:px-8">
+    <section className="w-full bg-[#0D132E] text-white py-16 px-8 md:px-20">
       <div className="max-w-[1200px] mx-auto">
 
         <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-16 mb-20">

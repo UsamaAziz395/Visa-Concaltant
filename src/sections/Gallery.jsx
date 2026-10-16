@@ -1,9 +1,13 @@
+
 import React, { useState } from 'react'
 import Gallerydata from '../data/Gallerydata'
-import Stat from '../Components/Stat/Stat'
 
-function Gallery() {
+function Gallery({ showButton = true }) {
   const [allimages, setAllImages] = useState(false)
+
+  const visibleImages = showButton && !allimages
+    ? Gallerydata.slice(0, 3)
+    : Gallerydata
 
   return (
     <div className='py-10 sm:py-12 px-4 sm:px-6 lg:px-10'>
@@ -26,29 +30,28 @@ function Gallery() {
           </p>
         </div>
 
-        <button
-          onClick={() => setAllImages(!allimages)}
-          className='py-3 px-5 bg-purple-600 text-white rounded-lg w-fit'
-        >
-          {allimages ? "Hide Gallery" : "See All Gallery"}
-        </button>
+        {showButton && (
+          <button
+            onClick={() => setAllImages(!allimages)}
+            className='py-3 px-5 bg-purple-600 text-white rounded-lg w-fit'
+          >
+            {allimages ? 'Hide Gallery' : 'See All Gallery'}
+          </button>
+        )}
 
       </div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5'>
 
-        {Gallerydata
-          .slice(0, allimages ? Gallerydata.length : 3)
-          .map((data) => (
-            <div key={data.id}>
-              <img
-                className='h-56 sm:h-60 w-full object-cover rounded-lg'
-                src={data.image}
-                alt='Gallery'
-              />
-            </div>
-            
-          ))}
+        {visibleImages.map((data) => (
+          <div key={data.id}>
+            <img
+              className='h-56 sm:h-60 w-full object-cover rounded-lg'
+              src={data.image}
+              alt='Gallery'
+            />
+          </div>
+        ))}
 
       </div>
 

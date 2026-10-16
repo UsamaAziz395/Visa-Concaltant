@@ -8,15 +8,15 @@ function Family() {
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-8 sm:mb-10">
-          <p className="text-[#4361EE] text-xs sm:text-sm font-bold tracking-widest mb-3">
+          <p className="text-amber-300 text-xs sm:text-sm font-bold tracking-widest mb-3">
             OUR TEAM
           </p>
 
-          <h2 className="text-3xl sm:text-4xl font-semibold text-[#0D132E]">
+          <h2 className="text-3xl sm:text-4xl font-bold">
             The ImmiGo Family
           </h2>
 
-          <p className="text-sm sm:text-base text-gray-500 mt-4 max-w-2xl mx-auto leading-7">
+          <p className="text-sm sm:text-base mt-4 max-w-2xl mx-auto leading-7">
             Meet the dedicated professionals helping you navigate your
             immigration journey with confidence.
           </p>

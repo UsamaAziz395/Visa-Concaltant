@@ -6,6 +6,7 @@ import Story from '../Components/Story/Story'
 import Mission from '../Components/Mission/Mission'
 import Video from '../Components/Video/Video'
 import Aboutbg from '../assets/images/Aboutbg.jpg'
+import Family from '../Components/Family/Family'
 
 function About() {
   return (
@@ -28,6 +29,7 @@ function About() {
       <Story />
       <Video />
       <Mission />
+      <Family />
       <GetTouch />
     </div>
   )
