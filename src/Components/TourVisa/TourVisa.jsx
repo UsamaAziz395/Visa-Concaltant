@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import TourVisaData from '../../data/TourVisadata';
 import Tourvisa from '../../assets/images/Tourvisa.jpg';
 
@@ -16,12 +17,12 @@ function TourVisa() {
               {visa.title}
             </h1>
 
-            <a
-              href={visa.buttonLink}
+            <Link
+              to="/apply-visa"
               className="inline-flex items-center justify-center bg-[#4361EE] hover:bg-blue-700 text-white text-sm font-semibold px-6 py-3 rounded-lg transition-colors duration-300"
             >
               {visa.buttonText}
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mt-6">
