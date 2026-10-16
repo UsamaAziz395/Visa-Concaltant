@@ -1,10 +1,10 @@
 import React from 'react'
-import Teambg from '../../assets/images/Teambg.jpg'
-import Story from '../Story/Story'
-import Stat from '../Stat/Stat'
-import FAQs from '../../Components/FAQs/FAQs'
-import Video from '../../Components/Video/Video'
-import Family from '../Family/Family'
+import Teambg from '../assets/images/Teambg.jpg'
+import Story from '../Components/Story/Story'
+import Stat from '../Components/Stat/Stat'
+import FAQs from '../Components/FAQs/FAQs'
+import Video from '../Components/Video/Video'
+import Family from '../Components/Family/Family'
 
 function Team() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import Stat from '../Stat/Stat'
-import Story from '../Story/Story'
-import Video from '../Video/Video'
-import Immigration from '../../sections/Immigration'
+import Stat from '../Components/Stat/Stat'
+import Story from '../Components/Story/Story'
+import Video from '../Components/Video/Video'
+import Immigration from '../sections/Immigration'
 function Gallerydetail() {
   return (
     <div>

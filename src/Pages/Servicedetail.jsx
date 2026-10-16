@@ -1,10 +1,10 @@
 import React from 'react'
-import Client from '../../sections/Client'
-import ChooseUs from '../../sections/ChooseUs'
-import Gallery from '../../sections/Gallery'
-import GetTouch from '../../sections/GetTouch'
-import Servicedetailbg from '../../assets/images/Servicedetailbg.jpg'
-import TourVisa from '../TourVisa/TourVisa'
+import Client from '../sections/Client'
+import ChooseUs from '../sections/ChooseUs'
+import Gallery from '../sections/Gallery'
+import GetTouch from '../sections/GetTouch'
+import Servicedetailbg from '../assets/images/Servicedetailbg.jpg'
+import TourVisa from '../Components/TourVisa/TourVisa'
 
 function Servicedetail() {
   return (

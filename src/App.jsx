@@ -1,37 +1,34 @@
-import { useState } from 'react'
+
 import { Route, Routes } from 'react-router-dom'
+
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Services from './Pages/Services'
 import Contact from './Pages/Contact'
-import Layout from './Components/Layout/Layout'
 import Pricing from './Pages/Pricing'
-import ApplyVisa from "./Components/ApplyVisa/ApplyVisa";
-function App() {
-  const [count, setCount] = useState(0)
 
+import Servicedetail from './Pages/Servicedetail'
+import Team from './Pages/Team'
+import Gallerydetail from './Pages/Gallerydetail'
+
+import Layout from './Components/Layout/Layout'
+import ApplyVisa from './Components/ApplyVisa/ApplyVisa'
+
+function App() {
   return (
-   <>
-   
-   <Routes>
-    <Route element={<Layout />}>
-    <Route path='/' element={<Home />}></Route>
-    <Route path='/about' element={<About />}></Route>
-    <Route path='/pricing' element={<Pricing />}></Route>
-    <Route path='/services' element={<Services />}></Route>
-    <Route path='/contact' element={<Contact />}></Route>
-    <Route path="/apply-visa" element={<ApplyVisa />} />
-    </Route>
-   </Routes>
-   
-   
-   
-   
-   
-   
-   
-   
-   </>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/servicedetail' element={<Servicedetail />} />
+        <Route path='/team' element={<Team />} />
+        <Route path='/gallerydetail' element={<Gallerydetail />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/applyvisa' element={<ApplyVisa />} />
+      </Route>
+    </Routes>
   )
 }
 
