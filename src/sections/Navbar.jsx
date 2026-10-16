@@ -14,7 +14,7 @@ function Navbar() {
       <div className='flex justify-between items-center'>
         {/* Logo */}
         <Link to='/' className='text-xl font-bold'>
-          LOGO
+         ImmiGo
         </Link>
 
         {/* Desktop Links */}

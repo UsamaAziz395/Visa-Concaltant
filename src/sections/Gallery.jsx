@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Gallerydata from '../data/Gallerydata'
+import Stat from '../Components/Stat/Stat'
 
 function Gallery() {
   const [allimages, setAllImages] = useState(false)
@@ -29,7 +30,7 @@ function Gallery() {
           onClick={() => setAllImages(!allimages)}
           className='py-3 px-5 bg-purple-600 text-white rounded-lg w-fit'
         >
-          {allimages ? "Hide Images" : "See All Gallery"}
+          {allimages ? "Hide Gallery" : "See All Gallery"}
         </button>
 
       </div>
@@ -46,6 +47,7 @@ function Gallery() {
                 alt='Gallery'
               />
             </div>
+            
           ))}
 
       </div>
